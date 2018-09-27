@@ -11,11 +11,37 @@ namespace ConsoleApp1
 {
     class Program
     {
-        get {return name; }
-    set {name ,=Value;}
-
-
-
+     string name, specices, sex weight, bandno
+       public string name 
+     {
+      get {return name; }
+      set {name =Value;}
+    
+     }
+     public string species
+     {
+      get {return species; }
+      set {specices =Value;}
+    
+     }
+     public string sex
+     {
+      get {return sex; }
+      set {sex =Value;}
+    
+     }
+     public string  Weight
+     {
+      get {return weight; }
+      set {weight =Value;}
+    
+     }
+       public string  Bandno
+     {
+      get {return bandno; }
+      set {bandno =Value;}
+    
+     }
 }
 
 
