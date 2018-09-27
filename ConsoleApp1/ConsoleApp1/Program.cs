@@ -59,16 +59,19 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            Console.Write("Please enter bird name: ");
+            Console.WriteLine("Please enter bird name: ");
             string bird = Console.ReadLine();
-            Console.Write("Please enter species name: ");
+            Console.WriteLine("Please enter species name: ");
             string species = Console.ReadLine();
-            Console.Write("Please enter sex name: ");
+            Console.WriteLine("Please enter sex name: ");
             string sex = Console.ReadLine();
-            Console.Write("Please enter weight name: ");
+            Console.WriteLine("Please enter weight name: ");
             string weight= Console.ReadLine();
-            Console.Write("Please enter bandno name: ");
+            Console.WriteLine("Please enter bandno name: ");
             string bandno = Console.ReadLine();
+         Bird first = new Bird (Birdtype, Species, sex, Weight, Bandno);
+          Console.WriteLine(first.Birdname());
+         
 
 
 
