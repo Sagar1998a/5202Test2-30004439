@@ -43,12 +43,14 @@ namespace ConsoleApp1
     
      }
      public Bird(string _name, string _species, string _sex, string _weight, string bandno)
+     {
       Name= _name;
      Species= _species;
      Sex= _sex;
      Weight= _weight;
      Bandno= _bandno;
 }
+    }
  publi string Birdname()
  {
   return "bird name="+ Bird+ "Species=" +Species+ "Sex of Bird"+ Sex+ " Weight of Bird"+ Weight+" Bandnumber"+ Bandno;
